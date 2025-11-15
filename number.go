@@ -13,7 +13,6 @@ func main() {
 		fmt.Print("Enter your number here: ")
 		fmt.Scan(&input)
 
-		// Chuyển đổi chuỗi thành số nguyên
 		number, err = strconv.Atoi(input)
 		if err != nil {
 			fmt.Println("Error,please enter again")
